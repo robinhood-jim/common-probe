@@ -1,0 +1,18 @@
+basePackage:
+  com.zhcx
+
+annotationPackages:
+  com.zhcx.dubbo
+
+
+scanPackages:
+  packageName:
+    com.zhcx.wisdombus
+  monitorClasses:
+    name:
+      "[A-Za-z0-9]?Controller"
+    metholds:
+      add* *
+      query* 2
+      update* *
+
